@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфоліо</title>
     <link
       rel="stylesheet"
@@ -16,7 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/styles2.css" />
   </head>
   <body class="body">
     <header class="page-header">
@@ -31,15 +32,19 @@
               <a href="./index.html" class="nav-item link">Studio</a>
             </li>
             <li class="list-item">
-              <a href="./portfolio.html" class="nav-item current link"
-                >Portfolio</a
-              >
+              <a href="./portfolio.html" class="nav-item current link">Portfolio</a>
             </li>
             <li class="list-item">
               <a href="" class="nav-item link">Contacts</a>
             </li>
           </ul>
         </nav>
+        <button type="button" class="mobile-menu-open-btn" data-menu-open>
+                <svg class="mobile-menu-open-btn-icon" aria-label="burger-open-button" width="32" height="22">
+                    <use href="./images/icons.svg#burger-icon">
+                    </use>
+                </svg>
+            </button>
         <address class="address">
           <ul class="list">
             <li class="address-item">
@@ -55,6 +60,83 @@
           </ul>
         </address>
       </div>
+      <div class="mobile-menu is-hidden" data-menu>
+            <div class="container mobile-menu-container">
+             <button class="mobile-menu-close-btn" data-menu-close>
+                    <svg class="mobile-menu-close-icon" aria-label="burger-close-button" width="8" height="8">
+                        <use href="./images/icons.svg#close">
+                        </use>
+                    </svg>
+                </button>
+
+                <ul class="mobile-menu-list list" lang="en">
+                    <li class="mobile-menu-item">
+                        <a class="mobile-menu-link  main-link link" href="./index.html">Studio</a>
+                    </li>
+                
+                    <li class="mobile-menu-item">
+                        <a class="mobile-menu-link  link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                
+                    <li class="mobile-menu-item">
+                        <a class="mobile-menu-link link" href="">Contacts</a>
+                    </li>
+                </ul>
+             
+                <div>
+                <address class="mobile-address">
+                    <ul class="mobile-address-list list">
+                        <li class="mobile-address-list-item">
+                            <a class="mobile-contact-mobile-link mobile-tel link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                        </li>
+                        <li class="mobile-address-list-item">
+                            <a class="mobile-contact-email-link mobile-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                    </ul>
+                </address>
+                <ul class="mobile-social-list list">
+                    <li class="social-list-item">
+                        <a href="" class="social-list-link">
+                            <svg class="social-list-icon" aria-label="instagram`s icon" width="24" height="24">
+                
+                                <use href="./images/icons.svg#icon-instagram2">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                
+                    <li class="social-list-item">
+                        <a href="" class="social-list-link">
+                            <svg class="social-list-icon" aria-label="twitter`s icon" width="24" height="24">
+                
+                                <use href="./images/icons.svg#icon-twitter2">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                
+                    <li class="social-list-item">
+                        <a href="" class="social-list-link">
+                            <svg class="social-list-icon" aria-label="facebook`s icon" width="24" height="24">
+                
+                                <use href="./images/icons.svg#icon-facebook2">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                
+                    <li class="social-list-item">
+                        <a href="" class="social-list-link">
+                            <svg class="social-list-icon" aria-label="linkedin`s icon" width="24" height="24">
+                
+                                <use href="./images/icons.svg#icon-linkedin2">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+               </div>
+            </div>
     </header>
     <main>
       <section class="filter">
@@ -93,11 +175,11 @@
                     App · Cloud Storage App
                   </p>
                 </div>
-              </a>
               <div class="pic-text">
                 <h2 class="pic">Banking App Interface Concept</h2>
                 <p class="paragraph">App</p>
               </div>
+              </a>
             </li>
 
             <li class="pic-item">
@@ -115,12 +197,14 @@
                     App · Cloud Storage App
                   </p>
                 </div>
-              </a>
+             
               <div class="pic-text">
                 <h2 class="pic">Cashless Payment</h2>
                 <p class="paragraph">Marketing</p>
               </div>
+               </a>
             </li>
+
             <li class="pic-item">
               <a href="" class="link pic-link">
                 <div class="picture">
@@ -136,11 +220,12 @@
                     App · Cloud Storage App
                   </p>
                 </div>
-              </a>
+              
               <div class="pic-text">
                 <h2 class="pic">Meditation App</h2>
                 <p class="paragraph">App</p>
               </div>
+              </a>
             </li>
             <li class="pic-item">
               <a href="" class="link pic-link">
@@ -157,11 +242,12 @@
                     App · Cloud Storage App
                   </p>
                 </div>
-              </a>
+             
               <div class="pic-text">
                 <h2 class="pic">Taxi Service</h2>
                 <p class="paragraph">Marketing</p>
               </div>
+               </a>
             </li>
             <li class="pic-item">
               <a href="" class="link pic-link">
@@ -178,11 +264,12 @@
                     App · Cloud Storage App
                   </p>
                 </div>
-              </a>
+             
               <div class="pic-text">
                 <h2 class="pic">Screen Illustrations</h2>
                 <p class="paragraph">Design</p>
               </div>
+               </a>
             </li>
             <li class="pic-item">
               <a href="" class="link pic-link">
@@ -199,11 +286,12 @@
                     App · Cloud Storage App
                   </p>
                 </div>
-              </a>
+              
               <div class="pic-text">
                 <h2 class="pic">Online Courses</h2>
                 <p class="paragraph">Marketing</p>
               </div>
+              </a>
             </li>
             <li class="pic-item">
               <a href="" class="link pic-link">
@@ -220,11 +308,12 @@
                     App · Cloud Storage App
                   </p>
                 </div>
-              </a>
+              
               <div class="pic-text">
                 <h2 class="pic">Instagram Stories Concept</h2>
                 <p class="paragraph">Design</p>
               </div>
+              </a>
             </li>
             <li class="pic-item">
               <a href="" class="link pic-link">
@@ -241,11 +330,12 @@
                     App · Cloud Storage App
                   </p>
                 </div>
-              </a>
+              
               <div class="pic-text">
                 <h2 class="pic">Organic Food</h2>
                 <p class="paragraph">Web Site</p>
               </div>
+              </a>
             </li>
             <li class="pic-item">
               <a href="" class="link pic-link">
@@ -262,11 +352,12 @@
                     App · Cloud Storage App
                   </p>
                 </div>
-              </a>
+              
               <div class="pic-text">
                 <h2 class="pic">Fresh Coffee</h2>
                 <p class="paragraph">Web Site</p>
               </div>
+              </a>
             </li>
           </ul>
         </div>
@@ -286,36 +377,47 @@
         </div>
         <div class="social-media">
           <p class="media-paragraph">Social media</p>
-          <ul class="icons-list">
-            <li class="icon">
-              <a href="" class="icon-link">
-                <svg class="icon-svg" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram2"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="icon">
-              <a href="" class="icon-link">
-                <svg class="icon-svg" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter2"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="icon">
-              <a href="" class="icon-link">
-                <svg class="icon-svg" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook2"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="icon">
-              <a href="" class="icon-link">
-                <svg class="icon-svg" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin2"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+          <ul class="social-list list">
+                    <li class="social-list-item">
+                        <a href="" class="social-list-link">
+                            <svg class="social-list-icon" aria-label="instagram`s icon" width="24" height="24">
+                
+                                <use href="./images/icons.svg#icon-instagram2">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                
+                    <li class="social-list-item">
+                        <a href="" class="social-list-link">
+                            <svg class="social-list-icon" aria-label="twitter`s icon" width="24" height="24">
+                
+                                <use href="./images/icons.svg#icon-twitter2">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                
+                    <li class="social-list-item">
+                        <a href="" class="social-list-link">
+                            <svg class="social-list-icon" aria-label="facebook`s icon" width="24" height="24">
+                
+                                <use href="./images/icons.svg#icon-facebook2">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                
+                    <li class="social-list-item">
+                        <a href="" class="social-list-link">
+                            <svg class="social-list-icon" aria-label="linkedin`s icon" width="24" height="24">
+                
+                                <use href="./images/icons.svg#icon-linkedin2">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
         </div>
         <div class="footer-form">
           <p class="form-text">Subscribe</p>
@@ -339,5 +441,7 @@
         </div>
       </div>
     </footer>
+    <script src="./mobile-menu.js"></script>
+    <script src="./switch-menu.js"></script>
   </body>
 </html>
