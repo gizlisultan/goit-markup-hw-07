@@ -991,10 +991,9 @@ input:focus + .modal-svg {
   .icon {
     display: none;
   }
-}
-@media screen and (min-width: 768px) and (max-width: 1157px) {
   .description {
     margin-bottom: 8px;
+    text-align: start;
   }
   .feature-list .paragraph {
     width: 356px;
