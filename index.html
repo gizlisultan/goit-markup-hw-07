@@ -23,9 +23,7 @@
     <header class="page-header">
       <div class="container sitenav">
         <nav class="site-nav">
-          <a href="./index.html" class="link logo">
-            Web
-            <span class="studio">Studio</span>
+          <a href="./index.html" class="link logo">Web<span class="studio">Studio</span>
           </a>
           <ul class="nav-list list">
             <li class="list-item">
@@ -62,7 +60,7 @@
       </div>
       <div class="mobile-menu is-hidden" data-menu>
             <div class="container mobile-menu-container">
-             <button class="mobile-menu-close-btn" data-menu-close>
+             <button type="button" class="mobile-menu-close-btn" data-menu-close>
                     <svg class="mobile-menu-close-icon" aria-label="burger-close-button" width="8" height="8">
                         <use href="./images/icons.svg#close">
                         </use>
@@ -207,21 +205,22 @@
           <h2 class="services">What are we doing</h2>
           <ul class="services-list">
             <li class="services-item">
-              <img
+              <img srcset="./images/Desktop_desing.jpg 1x, ./images/Desktop_desing@2x.jpg 2x"
                 src="./images/Desktop_desing.jpg"
                 alt="Desktop desing"
                 width="360"
               />
             </li>
             <li class="services-item">
-              <img
-                src="./images/Mobile_app_desing.jpg"
+              <img srcset="./images/Mobile_app_design.jpg 1x, ./images/Mobile_app_design@2x.jpg 2x"
+                src="./images/Mobile_app_design.jpg"
                 alt="Mobile app desing"
                 width="360"
               />
             </li>
             <li class="services-item">
-              <img
+              <img srcset="./images/Desktop_and_app_synchronizing.jpg 1x, 
+              ./images/Desktop_and_app_synchronizing@2x.jpg 2x"
                 src="./images/Desktop_and_app_synchronizing.jpg"
                 alt="Desktop and app synchronizing"
                 width="360"
@@ -236,6 +235,15 @@
           <h2 class="team">Our Team</h2>
           <ul class="team-list">
             <li class="list-item">
+                <source srcset="./images/Mark_Guerrero.jpg 1x,
+                            ./images/Mark_Guerrero@2x.jpg 2x"
+                            media="(min-width: 1158px)" />
+                            <source srcset="./images/Mark_Guerrero_t.jpg 1x, 
+                            ./images/Mark_Guerrero_t@2x.jpg 2x"
+                            media="(min-width: 768px)" />
+                            <source srcset="./images/Mark_Guerrero_m.jpg 1x, 
+                            ./images/Mark_Guerrero_m@2x.jpg 2x" 
+                            media="(max-width: 767px)" />
               <img
                 src="./images/Mark_Guerrero.jpg"
                 alt="Mark Guerrero"
@@ -288,6 +296,15 @@
               </div>
             </li>
             <li class="list-item">
+                <source srcset="./images/Tom_Ford.jpg 1x,
+                            ./images/Tom_Ford@2x.jpg 2x"
+                            media="(min-width: 1158px)" />
+                            <source srcset="./images/Tom_Ford_t.jpg 1x, 
+                            ./images/Tom_Ford_t@2x.jpg 2x"
+                            media="(min-width: 768px)" />
+                            <source srcset="./images/Tom_Ford_m.jpg 1x, 
+                            ./images/Tom_Ford_m@2x.jpg 2x" 
+                            media="(max-width: 767px)" />
               <img src="./images/Tom_Ford.jpg" alt="Tom Ford" width="264" />
               <div class="name">
                 <h3 class="colleagues">Tom Ford</h3>
@@ -336,6 +353,15 @@
               </div>
             </li>
             <li class="list-item">
+                <source srcset="./images/Camila_Garcia.jpg 1x,
+                            ./images/Camila_Garcia@2x.jpg 2x"
+                            media="(min-width: 1158px)" />
+                            <source srcset="./images/Camila_Garcia_t.jpg 1x, 
+                            ./images/Camila_Garcia_t@2x.jpg 2x"
+                            media="(min-width: 768px)" />
+                            <source srcset="./images/Camila_Garcia_m.jpg 1x, 
+                            ./images/Camila_Garcia_m@2x.jpg 2x" 
+                            media="(max-width: 767px)" />
               <img
                 src="./images/Camila_Garcia.jpg"
                 alt="Camila Garcia"
@@ -388,6 +414,15 @@
               </div>
             </li>
             <li class="list-item">
+                <source srcset="./images/Daniel_Wilson.jpg 1x,
+                            ./images/Daniel_Wilson@2x.jpg 2x"
+                            media="(min-width: 1158px)" />
+                            <source srcset="./images/Daniel_Wilson_t.jpg 1x, 
+                            ./images/Daniel_Wilson_t@2x.jpg 2x"
+                            media="(min-width: 768px)" />
+                            <source srcset="./images/Daniel_Wilson_m.jpg 1x, 
+                            ./images/Daniel_Wilson_m@2x.jpg 2x" 
+                            media="(max-width: 767px)" />
               <img
                 src="./images/Daniel_Wilson.jpg"
                 alt="Daniel Wilson"
@@ -495,9 +530,7 @@
     <footer class="page-footer">
       <div class="container footer">
         <div class="logo-paragraph">
-          <a href="./index.html" class="link logo">
-            Web
-            <span class="studio">Studio</span>
+          <a href="./index.html" class="link logo">Web<span class="studio">Studio</span>
           </a>
           <p class="paragraph">
             Increase the flow of customers and sales for your business with
